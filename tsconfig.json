@@ -6,7 +6,8 @@
     "module": "ES2015",
     "esModuleInterop": true,
     "noEmit": true,
-    "outDir": "dist/assets/js/"
+    "outDir": "dist/assets/js/",
+    "allowJs": true
   },
   "include": ["src/assets/js/*"]
 }
