@@ -1,8 +1,9 @@
 {
-  "name": "init-html-project",
+  "name": "template-html",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Template for HTML development.",
+  "main": "dist/index.js",
+  "private" : true,
   "scripts": {
     "build": "run-s build:**",
     "build:img": "cpx \"src/assets/img/**/*.{jpg,png,gif,svg}\" dist/assets/img/",
@@ -20,7 +21,7 @@
     "watch:bs": "browser-sync start --config bs-config.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "yend724",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.14.6",
